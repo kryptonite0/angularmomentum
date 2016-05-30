@@ -1,0 +1,7 @@
+# Galaxy     RA            DEC             z        err_z       HST_photom   SDSS_name            SDSS_link
+G041         63.08212      -5.91350        0.130    0.00003     TRUE         J041219.71-055448.6  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=63.08212&dec=-5.91350
+C222         339.95558     -8.07169        0.071    0.00009     FALSE        J223949.34-080418.0  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=339.95560679&dec=-8.07170212
+D135         202.52921     +0.53144        0.075    0.00004     TRUE         J133007.01+003153.2  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=202.52921%20&dec=+0.53144 
+G202         311.01212     -6.78275        0.141    0.00005     TRUE         J20442.915-064657.9  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=311.01212&dec=-06.78275
+SDSS013527   23.86294001   -10.6607367     0.127    0.00006     FALSE        J013527.10-103938.6  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=01:35:27&dec=-10:39:38
+SDSS234657   356.73802121  0.94138816      0.182    0.00006     FALSE        J234657.12+005628.9  http://cas.sdss.org/dr7/en/tools/explore/obj.asp?ra=23:46:57&dec=+00:56:29

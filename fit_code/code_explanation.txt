@@ -1,0 +1,100 @@
+disk.fit.center :
+Finds center of object. 
+Gamma = 2 (!!!)
+Defines V = (velocity field) * (POSITIVE surface density field)^(Gamma) .
+Computes center by minimizing the convolution of V with the 180deg-rotated V.
+
+---------------------------------------------------------------------------------------------------------
+
+disk.fit.orientation :
+Minimizes total standard deviation (function min_fctA) using Nelder-Mead method (doesn't accept boundary conditions for parameters). 
+
+  min_fctA :
+  Deprojects disk (disk.deprojection) using supplied inclination and PA, 
+  produces deprojected radii map and velocity projection factor map. 
+  Then does 2 things:
+  1 - field = surface density map
+      radius_list = list of indexes of sorted deprojected radii map 
+  	  weight = 1
+	  in bins of 50 pixels computes stddev of field (goes from centre to outskirts, doesn't use last <50 pixels)
+	  sums stddev of each 50-pixel bin, divides the sum by number of 50-pixel bins and normalizes it by <surface density>
+	  = stddev_density
+  2 - field = deprojected velocity map
+      weight = |velocity projection factor map| 
+	  in bins of 50 pixels computes weighted stddev of field*weight (goes from centre to outskirts, doesn't use last <50 pixels)
+	  sums stddev of each 50-pixel bin, divides the sum by number of 50-pixel bins and normalizes it by 2*<|velocity|>
+      = stddev_velocity
+  relative_velocity_weight = 0.3 (!!!)
+  stddev_tot = (1-relative_velocity_weight) * stddev_density + relative_velocity_weight * stddev_velocity
+    
+Initial parameters are: 
+inclination = [0.1,0.2,0.4,0.8] (!!!)
+PA = [0,45,90,135] (!!!)
+Loops through initial parameters and keeps the minimum total standard deviation result. 
+(checks if PA needs to be reversed)
+If forced_inclination is set, it uses that value for inclination. 
+
+Plots "Verification of center and orientation".
+
+---------------------------------------------------------------------------------------------------------
+
+disk.fit.rotationcurve :
+
+Defines kinematic models:
+r = deprojected radius
+f = velocity projection factor
+
+v_circular_model = vflat * (1 - exp(-r/rflat))  
+v_radial_model = voffset + f * v_circular_model
+
+Gamma = 0  (!!!)
+Minimizes (observed velocity - blurred v_radial_model) * (POSITIVE surface density field)^(Gamma)
+Initial parameters:
+voffset = 0
+vflat = 2.5 * quantile(|observed velocity|, 0.5)
+rflat = 1
+makes sure that vflat is not much larger than vmax=300 (!!!)
+
+Plots "Verification of rotation curve".
+
+---------------------------------------------------------------------------------------------------------
+
+disk.fit.singe_exponential_density_profile :
+
+Fits POSITIVE surface density field with single exponential model. 
+Accounts for background. 
+
+---------------------------------------------------------------------------------------------------------
+
+disk.fit.double_exponential_density_profile :
+
+Fits POSITIVE surface density field with double exponential model. 
+Assumes that the bulge is exponential and 'flat' in the sense that it also needs to be deprojected. 
+Accounts for background. 
+
+---------------------------------------------------------------------------------------------------------
+
+disk.angularmomentum : 
+
+Calculates:
+1 - j_model, assuming surface density = single exponential model 
+2 - j_observed, using deprojected surface density (- background estimated from double exp model) 
+    and deprojected velocity, where they are both non NaN
+3 - j_extrapolated, = j_observed & j_model where j_observed not available
+
+---------------------------------------------------------------------------------------------------------
+
+merge.objects : 
+
+Makes new object where density and velocity data is taken from master_object if available
+and from slave_object otherwise. 
+So far, I've been using OSIRIS as master and GMOS as slave. 
+PSF of new object is average PSF of master and slave (!!!).
+The slave does not use the background corrected data, because the density fit and offset are very uncertain due to central beam smearing.
+The slave surface density is corrected by a factor "slave_weight_density" input by hand.
+
+
+
+
+
+

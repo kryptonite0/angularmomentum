@@ -1,0 +1,370 @@
+G041_Pa_lum.fits[67,52][real]: HfluxHz_4-1
+No bad pixels, min=0., max=0. (old)
+Line storage mode, physdim [67,52], length of user area 14783 s.u.
+Created Tue 11:28:35 03-May-2016, Last modified Wed 12:18:33 21-May-2014
+Pixel file "G041_Pa_lum.fits" [ok]
+EXTEND  =                    T /file may contain extensions
+COMMENT   FITS (Flexible Image Transport System) format is defined in 'Astronomy
+COMMENT   and Astrophysics', volume 376, page 359; bibcode: 2001A&A...376..359H
+COMMENT <************************* - osds Keywords - *************************>
+TIMFILE = '/kroot/rel/default/data/osiris_tim_h2_slow_fifo.lod' / !Filename cont
+SATURATE=                33000 / !Saturation level of detector
+READTIME=                 1.48 / !Time in seconds to readout detector
+PCIFILE = '/kroot/rel/default/data/osiris_pci.lod' / !Filename containing PCI DS
+NOISEFIL= '/kroot/rel/default/data/osiris_spec_readvariance.fits' / !Filename co
+INSTR   = 'spec    '           / !Spectrometer (spec) or Imager (imag)
+GAIN    =                 0.23 / !Detector gain in ADU per electron
+BADPIX  = '/kroot/rel/default/data/osiris_specbadpix.fits' / !FITS filename cont
+RDITIME =               29.032 / Integration time between start of successive re
+FRAMENUM=                    4 / Frame Number
+SETNUM  =                   25 / Dataset Number
+OBSTYPE = 'astro   '           / Observation type: astro, star, calib
+OUTDIR  = '/osiris-data//osiris2/120927/SPEC/raw' / Directory to which saved fil
+DATAFILE= 's120927_a025004'    / Filename for saved data image
+SAMPMODE=                    1 / Sampling Mode: 1: UTR, 2: PseudoCDS: Subtract 2
+NUMREADS=                   32 / Number of reads
+ITIME   =                 900. / Integration time of each coadd
+COADDS  =                    1 / Number of coadded frames
+COMMENT = 'OSIRIS Spectrometer on Keck II' / Comment for frame
+COMMENT <************************ - osiris Keywords - ************************>
+DTMPLOC1= 'CCR Head'           / !Location of Temperature Sensor 1
+DTMPLOC2= 'Primary Plate'      / !Location of Temperature Sensor 2
+DTMPLOC3= 'Secondary Plate'    / !Location of Temperature Sensor 3
+DTMPLOC4= 'Front Splitter Mirror' / !Location of Temperature Sensor 4
+DTMPLOC5= 'Scale Turret 2'     / !Location of Temperature Sensor 5
+DTMPLOC6= 'Lenslet Mask Stage' / !Location of Temperature Sensor 6
+DTMPLOC7= 'TMA Housing'        / !Location of Temperature Sensor 7
+DTMPLOC8= 'Cold Shield'        / !Location of Temperature Sensor 8
+DTMP1   =     38.7459983825684 / Temperature at Sensor 1
+DTMP2   =     54.0069999694824 / Temperature at Sensor 2
+DTMP3   =     44.4440002441406 / Temperature at Sensor 3
+DTMP4   =     54.1500015258789 / Temperature at Sensor 4
+DTMP5   =     46.0880012512207 / Temperature at Sensor 5
+DTMP6   =     53.2190017700195 / Temperature at Sensor 6
+DTMP7   =     52.5320014953613 / Temperature at Sensor 7
+DTMP8   =     62.1389999389648 / Temperature at Sensor 8
+CTMPLOC1= 'ECCS1 Intake'       / !Name of the location of Temperature Sensor 1
+CTMPLOC2= 'ECCS1 Exhaust'      / !Name of the location of Temperature Sensor 2
+CTMPLOC3= 'EC1 Top of Cabinet' / !Name of the location of Temperature Sensor 3
+CTMPLOC4= 'Ambient Air'        / !Name of the location of Temperature Sensor 4
+CTMPLOC5= 'ECCS2 Intake'       / !Name of the location of Temperature Sensor 5
+CTMPLOC6= 'ECCS2 Exhaust'      / !Name of the location of Temperature Sensor 6
+CTMPLOC7= 'EC2 Mid of Cabinet' / !Name of the location of Temperature Sensor 7
+CTMPLOC8= 'EC2 Top of Cabinet' / !Name of the location of Temperature Sensor 8
+CTMP1   =                289.5 / Temperature at Sensor 1
+CTMP2   =     288.359985351562 / Temperature at Sensor 2
+CTMP3   =     287.510009765625 / Temperature at Sensor 3
+CTMP4   =     281.760009765625 / Temperature at Sensor 4
+CTMP5   =     286.579986572266 / Temperature at Sensor 5
+CTMP6   =     284.279998779297 / Temperature at Sensor 6
+CTMP7   =     285.940002441406 / Temperature at Sensor 7
+CTMP8   =     286.100006103516 / Temperature at Sensor 8
+PRESSURE=  0.00079699995694682 / Current pressure read from gauge in mTorr.
+SS1MECH = 'Scale Turret 1'     / !The overall name of the mechanism
+SS1STAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+SS1NAME = '0.100   '           / The name of the current position
+SS1RAW  =                    0 / Current position of mechanism in steps
+SS1SWTCH=                    3 / Current Switch Value
+SFWMECH = 'Spec Filter Wheel'  / !The overall name of the mechanism
+SFWSTAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+SFWNAME = 'Kn2     '           / The name of the current position
+SFWRAW  =                 -200 / Current position of mechanism in steps
+SFWSWTCH=                  384 / Current Switch Value
+SS2MECH = 'Scale Turret 2'     / !The overall name of the mechanism
+SS2STAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+SS2NAME = '0.100   '           / The name of the current position
+SS2RAW  =                    0 / Current position of mechanism in steps
+SS2SWTCH=                    3 / Current Switch Value
+SLMMECH = 'Lenslet Mask Stage' / !The overall name of the mechanism
+SLMSTAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+SLMNAME = 'Narrow  '           / The name of the current position
+SLMRAW  =               -10313 / Current position of mechanism in steps
+SLMSWTCH=                    4 / Current Switch Value
+IF1MECH = 'Imager Filter Wheel 1' / !The overall name of the mechanism
+IF1STAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+IF1NAME = 'Hn1     '           / The name of the current position
+IF1RAW  =                    0 / Current position of mechanism in steps
+IF1SWTCH=                   10 / Current Switch Value
+IF2MECH = 'Imager Filter Wheel 2' / !The overall name of the mechanism
+IF2STAT = 'OK      '           / Mechanism Status (Ok,Moving,Error,Unknown)
+IF2NAME = 'Kbb     '           / The name of the current position
+IF2RAW  =                  -94 / Current position of mechanism in steps
+IF2SWTCH=                    1 / Current Switch Value
+STRGTMP =                  68. / !Desired temperature for channel 1
+SCURTMP =     67.9970016479492 / Temperature at Channel 1
+SHTRACT =                    1 / Switch for temperature control for channel 1 (0
+SHTROUT =                  54. / Heater output percentage of channel 1
+SHTRRANG=                    3 / Channel 1 Heater range: 0=Off, 1=min power, 5=m
+ITRGTMP =                  70. / !Desired temperature for channel 2
+ICURTMP =                  70. / Temperature at Channel 2
+IHTRACT =                    1 / Switch for temperature control for channel 2 (0
+IHTROUT =     20.2999992370605 / Heater output percentage of channel 2
+DPWSTAT1=                    0 / !Power status of outlet 1
+DPWSTAT2=                    0 / !Power status of outlet 2
+DPWSTAT3=                    0 / !Power status of outlet 3
+DPWSTAT4=                    0 / !Power status of outlet 4
+DPWSTAT5=                    0 / !Power status of outlet 5
+DPWSTAT6=                    1 / !Power status of outlet 6
+DPWSTAT7=                    1 / !Power status of outlet 7
+DPWSTAT8=                    1 / !Power status of outlet 8
+DPWNAME1= 'Unused  '           / !Name of the device controlled by outlet 1
+DPWNAME2= 'Unused  '           / !Name of the device controlled by outlet 2
+DPWNAME3= 'Unused  '           / !Name of the device controlled by outlet 3
+DPWNAME4= 'Unused  '           / !Name of the device controlled by outlet 4
+DPWNAME5= 'Unused  '           / !Name of the device controlled by outlet 5
+DPWNAME6= 'Imager Electronics' / !Name of the device controlled by outlet 6
+DPWNAME7= 'Spec Electronics'   / !Name of the device controlled by outlet 7
+DPWNAME8= 'EC Cooling System'  / !Name of the device controlled by outlet 8
+EPWSTAT1=                    1 / !Power status of outlet 1
+EPWSTAT2=                    1 / !Power status of outlet 2
+EPWSTAT3=                    1 / !Power status of outlet 3
+EPWSTAT4=                    1 / !Power status of outlet 4
+EPWSTAT5=                    1 / !Power status of outlet 5
+EPWSTAT6=                    1 / !Power status of outlet 6
+EPWSTAT7=                    0 / !Power status of outlet 7
+EPWSTAT8=                    1 / !Power status of outlet 8
+EPWNAME1= 'Pressure Gauge'     / !Name of the device controlled by outlet 1
+EPWNAME2= 'Lakeshore 340'      / !Name of the device controlled by outlet 2
+EPWNAME3= 'Dewar Lakeshore 218' / !Name of the device controlled by outlet 3
+EPWNAME4= 'Cabinet Lakeshore 218' / !Name of the device controlled by outlet 4
+EPWNAME5= 'Motor Controllers'  / !Name of the device controlled by outlet 5
+EPWNAME6= 'Terminal Server'    / !Name of the device controlled by outlet 6
+EPWNAME7= 'Unused  '           / !Name of the device controlled by outlet 7
+EPWNAME8= 'EC Cooling System'  / !Name of the device controlled by outlet 8
+OBSERVER= 'Nobody  '           / Observer name(s)
+TELESCOP= '        '           / Telescope name
+DATASET = 'HfluxHz_4-1'        / dataset name
+OBJECT  = 'HfluxHz_4-1'        / object name
+PA_SPEC =                 135. / Position angle of spectrograph on sky
+PA_IMAG =                182.5 / Position angle of imager on sky
+SFILTER = 'Kn2     '           / Move spec fitler wheel by name
+IFILTER = 'Hn1 ? Kbb'          / Imager filter
+SSCALE  = '0.1     '           / Spec Scale
+OBJPTTRN= '        '           / Dither pattern for object frames
+SKYPTTRN= '        '           / Dither pattern for sky frames
+SFRAMES =                    6 / Number of spec frames in dataset
+SFRAME  =                    4 / Current spec frame (dither position) of set
+DCOORDS = 'instr   '           / Dither coordinates - sky/instr
+DTOTOFF1=                  0.1 / Offset from start of dither-axis 1
+DTOTOFF2=                   0. / Offset from start of dither-axis 2
+DLSTOFF1=                  0.1 / Offset from last dither pos-axis 1
+DLSTOFF2=                 -0.1 / Offset from last dither pos-axis 2
+ISSKY   =                    0 / flag for sky frames (0=not sky, 1=sky)
+IMAGMODE= 'Disabled (Spec only)' / Imager observation mode
+IFRAMES =                    0 / Number of imag frames per spec frame
+IFRAME  =                    0 / Current imag frame of dither position
+AODELAY =                    0 / Delay after AO locks
+WFDAR   = 'off     '           / Offload DAR before exposure
+WFTT    = 'on      '           / Wait for tiptilt lock
+WFDM    = 'on      '           / Wait for DM lock
+COMMENT <************************* - dcs Keywords - *************************>
+TUBETEMP=             -0.15068 / tube temperature (-0.15 degC)
+TELFOCUS= 0.000137056599836131 / telescope focus compensated (0.137 mm)
+TELESCOP= 'Keck I  '           / telescope name
+TARGWAVE= '2.088   '           / target wavelength (microns)
+TARGNAME= 'tt067   '           / target name
+SECTHETY= '-217.4  '           / secondary mirror thetay (arcsec)
+SECTHETX= '55.3    '           / secondary mirror thetax (arcsec)
+SECFOCUS= 0.000109299999999999 / secondary mirror focus raw (0.109 mm)
+ROTREFAN=                   0. / rotator reference angle (0.00 deg)
+ROTPOSN =                 447. / rotator user position (447.00 deg)
+ROTDEST =                 447. / rotator user destination (447.00 deg)
+ROTPPOSN=     529.514897215072 / rotator physical position (529.51 deg)
+ROTPDEST=     529.521407355898 / rotator physical destination (529.52 deg)
+ROTMODE = 'position angle'     / rotator tracking mode
+ROTCALAN=                   0. / rotator calibration angle (0.00 deg)
+RAOFF   = -9.20132898263416E-05 / right ascension offset (-19.0 arcsec)
+RA      =        63.0823947297 / RA at spatial [0,0] in mosaic
+POYPOS3 =              0.00574 / pointing origin yposition 3 (5.74 mm)
+POXPOS3 =              0.00193 / pointing origin xposition 3 (1.93 mm)
+PONAME3 = 'ospec   '           / pointing origin name 3
+POYPOS2 =             -0.00991 / pointing origin yposition 2 (-9.91 mm)
+POXPOS2 =              0.00194 / pointing origin xposition 2 (1.94 mm)
+PONAME2 = 'osimg   '           / pointing origin name 2
+POYPOS1 =                   0. / pointing origin yposition 1 (0.00 mm)
+POXPOS1 =                   0. / pointing origin xposition 1 (0.00 mm)
+PONAME1 = 'Opt Axis'           / pointing origin name 1
+POYPOS  =              0.00574 / pointing origin yposition (5.74 mm)
+POXPOS  =              0.00193 / pointing origin xposition (1.93 mm)
+PONAME  = 'ospec   '           / pointing origin name
+DTRACK  = 'disabled'           / differential tracking enabled
+DDEC    =                   0. / diff decl rate (0.0000000 arcsec/sec)
+DRA     =                   0. / diff ra rate (0.000000 seconds/sec)
+PARANG  =    -19.8711804370971 / parallactic angle astrometric (-19.87 deg)
+MJD-OBS =     56197.5623572796 / modified julian date of observation (56197.5623
+LST     = '03:34:52.05'        / local apparent sidereal time (h)
+INSTFLIP= 'no      '           / porg to instrument y flip
+INSTANGL=                 312. / porg to instrument angle (312.0 deg)
+HA      =    -9.52843818509221 / telescope hour angle (+23:21:53.17 h)
+GUIDWAVE= '0.715   '           / guidestar wavelength (microns)
+FOCALSTN= 'lnas (left nasmyth)' / focal station
+EQUINOX =              2000.00 /RA, Dec equinox is J2000 (I think)
+EL      =     62.6622955003948 / telescope elevation (62.66 deg)
+DOMESTAT= 'tracking'           / dome status
+DOMEPOSN=           159.030838 / dome azimuth (159.03 deg)
+DECOFF  = 0.000103947514638184 / declination offset (21.4 arcsec)
+DEC     =       -5.91236627039 / DEC at spatial [0,0] in mosaic
+DCSSTAT = 'standby '           / drive and control status
+DATE-OBS= '2012-09-27'         / universal date of observation
+CURRINST= 'OSIRIS  '           / current instrument
+CELOCAL =   0.0117538888551684 / collimation elevation local (42.3 arcsec)
+CALOCAL = -0.00961845409088877 / collimation azimuth local (-34.6 arcsec)
+AZ      =     159.013795809321 / telescope azimuth (159.01 deg)
+AXESTAT = 'tracking'           / axes control status
+AIRMASS =     1.12545051965573 / air mass (1.13)
+UTC     = '13:29:47.66'        / coordinated universal time (h)
+COMMENT <************************** - ao Keywords - **************************>
+COMMENT ////////////////////////////////////////////////////////////////////////
+COMMENT DRFN/usr/local/osiris/drs/drf_queue/015.s120927_a025_drf.working
+COMMENT DRF <?xml version="1.0" encoding="UTF-8"?>
+COMMENT DRF <!-- s120927_a025 -->
+COMMENT DRFC<DRF LogPath="/Users/wisnioski/osiris_reductions" ReductionType="ARP
+COMMENT DRFC_SPEC">
+COMMENT DRFC  <dataset InputDir="/Users/wisnioski/research/_OSIRIS/_dynamo/1209/
+COMMENT DRFCdata/spec" Name="s120927_a025" OutputDir="/Users/wisnioski/osiris_re
+COMMENT DRFCductions">
+COMMENT DRF     <fits FileName="s120927_a025001.fits" />
+COMMENT DRF     <fits FileName="s120927_a025003.fits" />
+COMMENT DRF     <fits FileName="s120927_a025004.fits" />
+COMMENT DRF     <fits FileName="s120927_a025006.fits" />
+COMMENT DRF   </dataset>
+COMMENT DRFC  <module Name="Subtract Frame" CalibrationFile="/Users/wisnioski/os
+COMMENT DRFCiris_reductions/s120927_a025002_combo_900.000_Kn2_100.fits" />
+COMMENT DRF   <module Name="Adjust Channel Levels" />
+COMMENT DRF   <module Name="Remove Crosstalk" />
+COMMENT DRF   <module Name="Glitch Identification" />
+COMMENT DRF   <module Name="Clean Cosmic Rays" Faint_Extended="NO" />
+COMMENT DRFC  <module Name="Extract Spectra" CalibrationFile="/usr/local/osiris/
+COMMENT DRFCdrs/calib/s120619_c002___infl_Kn2_100.fits" />
+COMMENT DRF   <module Name="Assemble Data Cube" />
+COMMENT DRF   <module Name="Correct Dispersion" />
+COMMENT DRF   <module Name="Save DataSet Information" />
+COMMENT DRF </DRF>
+COMMENT DRF
+COMMENT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+COMMENT ////////////////////////////////////////////////////////////////////////
+COMMENT DRFN/usr/local/osiris/drs/drf_queue/017.s120927_a025_drf.working
+COMMENT DRF <?xml version="1.0" encoding="UTF-8"?>
+COMMENT DRF <!-- s120927_a025 -->
+COMMENT DRFC<DRF LogPath="/Users/wisnioski/osiris_reductions" ReductionType="ARP
+COMMENT DRFC_SPEC">
+COMMENT DRFC  <dataset InputDir="/Users/wisnioski/osiris_reductions" Name="s1209
+COMMENT DRFC27_a025" OutputDir="/Users/wisnioski/osiris_reductions">
+COMMENT DRF     <fits FileName="s120927_a025004_Kn2_100.fits" />
+COMMENT DRF     <fits FileName="s120927_a025003_Kn2_100.fits" />
+COMMENT DRF     <fits FileName="s120927_a025006_Kn2_100.fits" />
+COMMENT DRF     <fits FileName="s120927_a025001_Kn2_100.fits" />
+COMMENT DRF   </dataset>
+COMMENT DRFC  <module Name="Mosaic Frames" Combine_Method="MEANCLIP" Offset_Meth
+COMMENT DRFCod="TEL" Save="1" />
+COMMENT DRF </DRF>
+COMMENT DRF
+COMMENT \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+UTGAIN  = '0.050   '           / Set TT loop gain
+UTCLP   = 'CLOSE   '           / OPEN/CLOSE TT CLMP ctrl loop
+DTCLP   = 'CLOSE   '           / OPEN/CLOSE TT CLMP ctrl loop
+WCUTSTAT= 'CLOSED  '           / Status of utt loop
+WCDMSTAT= 'CLOSED  '           / Status of DM loop
+WCDTSTAT= 'CLOSED_APD'         / Status of down tt loop
+WSCNORFN= 'lgs1972.cog'        / Name of origin vec file
+WSSMGN  = '0       '           / WFS gain (0)
+WSSMREP = '1127    '           / WFS SciMeas repetitions (increments)
+WSSMPRG = '2       '           / WFS_SciMeas program (0)
+OBWF    = '231.808 '           / User value of FCS (mm)
+OBSWNAME= 'OPEN    '           / Named position control for SFW
+OBSWSTA = 'off     '           / White light power status
+OBWNNAME= 'open    '           / Named position control for WND
+OBWPNAME= 'ngs     '           / Named position control for WPS
+OBWLNAME= 'noName  '           / Named position control for WLS
+OBWFSTST= 'TRACK   '           / State of FCS as string
+OBWCNAME= '2.4     '           / Named position control for WCS
+OBSNNAME= 'block   '           / Named position control for SND
+OBSFNAME= 'telescope'          / Named position control for SFP
+OBSI    = '-1.50   '           / User value of SFD (mm)
+OBSFZ   = '-0.01   '           / User value of SFP z axis (mm)
+OBSFY   = '-0.00   '           / User value of SFP y axis (mm)
+OBSFX   = '-199.99 '           / User value of SFP x axis (mm)
+OBSDNAME= 'sodiumDichroic'     / Named position control for SOD
+OBRT    = '264.7559'           / User value of ROT (deg)
+OBAMNAME= 'open    '           / Named position control for AFM
+OBLBNAME= 'noName  '           / Named position control for LBS
+OBIMNAME= 'out     '           / Named position control for ISM
+OBFSNAME= '2.4     '           / Named position control for FSS
+OBFMDREN= '0.000000'           / FSM Coordinated move use dar or not (.)
+OBFMYPU = '0.00    '           / Pupil plane y motion for FSM (subaps)
+OBFMXPU = '0.00    '           / Pupil plane x motion for FSM (subaps)
+OBFMYIM = '1.800   '           / Image plane y motion for FSM (mm)
+OBFMXIM = '5.320   '           / Image plane x motion for FSM (mm)
+AOFMY   = '5.32    '           / AO field steering mirrors Y position (mm)
+AOFMX   = '1.80    '           / AO field steering mirrors X position (mm)
+LGRMSWF = '138.1   '           / LGSAO RMS WF Residual
+AOLPMOVE= 'false   '           / AO LSP MOVE ENABLE
+OBTSZ   = '-4.95   '           / User value of TSS z axis (mm)
+OBTSY   = '57.49   '           / User value of TSS y axis (mm)
+OBTSX   = '-23.30  '           / User value of TSS x axis (mm)
+OBTSNAME= 'noName  '           / Named position control for TSS
+AOTSY   = '17.920  '           / AO tip/tilt sensor stage Y position (mm)
+AOTSX   = '-14.501 '           / AO tip/tilt sensor stage X position (mm)
+AOTSZ   = '-4.948  '           / AO tip/tilt sensor stage Z position (mm)
+AODRENA = '1.0     '           / AO DAR_ENABLE/DISABLE
+AODRDTEN= '0.0     '           / AO DAR DTT CTRLOFF ENABLE
+AOTSDAR = 'true    '           / AO TSS_USE_DAR?
+AOFOMODE= 'closed  '           / AO focus offloading mode
+AOFCSALT= '86839   '           / AO FC sodium alt preset (m)
+AOFCLBCT= 'ON      '           / AO FC LBWFS control
+AOFCLGCT= 'ON      '           / AO FC LGS control
+AOFCNGCT= 'ON      '           / AO FC NGS control
+AOFCLBFO= '0.001554'           / AO FC LBWFS pregain focus calc val (m)
+AOFCLGFO= '0.230526'           / AO FC LGS pregain focus calc val (m)
+AOFCNGFO= '-0.000231'          / AO FC NGS Focus Calc Value (m)
+AOWFC0  = '-0.256000'          / AO WFS focus stage FSM coefficient 0
+DTGAIN  = '0.030   '           / Set TT loop gain
+DMMRFN  = '27Sep0147.mr'       / Name of DM reconstructor file
+DMGAIN  = '0.250   '           / Set DM loop gain
+WSFRRT  = '750     '           / Frame rate for WFS cam (Hz)
+AOLBFWHM= '0.792924'           / AO LBWFS avg fwhm
+AOAOAMED= '1168    '           / AO WFC AOA camera median light level (counts)
+AOTTMODE= 'closed  '           / AO tip/tilt offloading mode
+AODTSTAT= 'closed  '           / AO downlink tip/tilt loop state
+AODMSTAT= 'closed  '           / AO deformable mirror loop state
+AOOPSMOD= '2       '           / AO General Ops Mode FITS
+FIXDETEC=              1.00000 /Shifted output channel by one pixel
+FLIP    = 'TRUE    '           /OSIRIS move to Keck I necessitates a flip
+HISTORY Cube was acquired on Keck I, thus has been flipped
+HISTORY assembcube_000:  Updating FITS header WCS keywords.
+INSTRUME= 'OSIRIS  '           /Instrument: OSIRIS on Keck I
+WAVEFILE= 'osiris_wave_coeffs_120104-121109.fits' /Wavelength Solution File
+WCSAXES =                    3 /Number of axes in WCS system
+CTYPE1  = 'DEC--TAN'           /Vacuum wavelength.
+CTYPE2  = 'RA---TAN'           /Right Ascension.
+CTYPE3  = 'WAVE    '           /Declination.
+CUNIT1  = 'deg     '           /Vacuum wavelength unit is nanometers
+DCLEVEL =          -0.00427588 / Bkg Sky Level Subtracted
+DCSTDEV =           0.00185283 / Bkg Sky Std Dev
+AVGFUNC = 'mean    '           / Bkg Sky Avg Function
+AVGXREG = '[6,21]  '           / Bkg Sky Avg X Region
+AVGYREG = '[11,25] '           / Bkg Sky Avg Y Region
+CUNIT2  = 'deg     '           /R.A. unit is degrees, always
+CUNIT3  = 'nm      '           /Declination unit is degrees, always
+CRVAL1  =       -5.91346621431 / [nm] Wavelength at reference pixel
+CRVAL2  =        63.0822367547 / [deg] R.A. at reference pixel
+CRVAL3  =              2036.00 / [deg] Declination at reference pixel
+CRPIX1  =              35.0000 /Reference pixel location
+CRPIX2  =              32.0000 /Reference pixel location
+CRPIX3  =              1.00000 /Reference pixel location
+CDELT1  =   -2.77778000000E-05 /Wavelength scale is      0.250000 nm/channel
+CDELT2  =          2.77778E-05 /Pixel scale is 0.100000 arcsec/pixel
+CDELT3  =       0.250000000000 /Pixel scale is 0.100000 arcsec/pixel
+PC1_1   =             0.682002 /Spectral axis is unrotated
+PC2_2   =             0.682002 /RA, Dec axes rotated by 135.000 degr.
+PC2_3   =                    0 /RA, Dec axes rotated by 135.000 degr.
+PC3_2   =                    0 /RA, Dec axes rotated by 135.000 degr.
+PC3_3   =                    1 /RA, Dec axes rotated by 135.000 degr.
+SPECSYS1= 'TOPOCENT'           /Axis 1 is in topocentric coordinates.
+SSYSOBS1= 'TOPOCENT'           /Axis 1 is in topocentric coordinates.
+RADESYS = 'FK5     '           /RA and Dec are in FK5
+HISTORY Cube acquired on Keck I, NO bench disp-correction
+PC2_1   =             0.731350 /
+PC1_2   =            -0.731350 /
+PC3_1   =                    0 /
+PC1_3   =                    0 /
